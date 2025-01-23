@@ -1,3 +1,6 @@
+name: tds project action
+on:
+  workflow_dispatch: # Allows manual triggering
 jobs:
   test:
     runs-on: ubuntu-latest
